@@ -46,6 +46,13 @@ a {
   background-color: transparent;
 }
 
+a:hover,
+a:active,
+a:visited,
+a:focus {
+  color: inherit;
+}
+
 abbr[title] {
   border-bottom: none;
   text-decoration: underline dotted;
